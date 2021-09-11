@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: cookies-bot
+#  datasource:
+#    url: jdbc:mysql://${MYSQL_HOST:10.211.55.6}:${MYSQL_PORT:3306}/boomhan_ktv?useUnicode=true&characterEncoding=utf8&useSSL=false
+#    username: root
+#    password: ${MYSQL_ROOT_PW:boomhan}
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    database: mysql
+#    show-sql: false
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        enable_lazy_load_no_trans: true
+
+app:
+  port: 9999
+  key: hanhansidiudiu
+  users:
+    1917878536: { uid: "1917878536",name: "小炸" }
+    2394495949: { uid: "2394495949",name: "小艾" }
+    3219806468: { uid: "3219806468",name: "小憨" }
+    2910889867: { uid: "2910889867",name: "小凉" }
+    2994713934: { uid: "2994713934",name: "小千" }
+    2805200047: { uid: "2805200047",name: "小瓜" }
+
+logging:
+  level:
+    root: info
